@@ -20,11 +20,9 @@ public class Solution {
             }
         }
 
-        int[] resultArr = new int[set.size()];
-        int i = 0;
-        for (int num : set) {
-            resultArr[i] = num;
-            i++;
+        int[] resultArr = new int[resultList.size()];
+        for (int i = 0; i < resultList.size(); i++) {
+            resultArr[i] = resultList.get(i);
         }
         return resultArr;
     }
